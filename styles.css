@@ -1,0 +1,153 @@
+body {
+	margin : "0";
+	padding : "0";
+	font-family : Arial, Helvetica, sans-serifs;
+	background-color : rgb(211, 162, 211);
+	}   
+
+.main_nav{
+display:flex;	
+justify-content: space-between; 
+	align-items: center;
+	padding: 20px 50px;
+	background-color: #004792;
+	color: #fff;
+  }
+
+  .left_item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left_item img{
+	width: 50px;
+	height: auto;
+	border: 1px solid white;
+	padding: 2px;
+	margin-right: 10px;
+  }
+
+  .middle_item ul{
+	list-style: none;
+	display: flex;
+	gap: 20px;
+  }
+
+  .middle_item li{
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 14px;
+  }
+
+  .right_item button{
+	background-color: blue;
+	padding: 10px 20px;
+	border-radius: 50px;
+	text-decoration: none;
+	color: #fff;}
+     
+	main{
+		display: flex;
+		align-items: center;
+		padding: 50px;
+	  } 
+
+	  .my_name{
+		flex: 1;
+	  }
+
+	  .my_picture{
+		flex: 1;
+	  }
+
+	  .my_name h1 #hi{
+		color: #a58dfd;
+	  }    
+
+	  .my_name h1 #I{
+		color: #ffdb10;
+
+	  }    
+
+	  .my_name h1 #am{
+		color: #a58dfd;
+
+	  }    
+
+	  .my_name h1 #Emmanuella{
+		color: #ffdb10
+		 
+	  }
+
+    	  .my_picture {
+		height: auto;
+		width: 100%;
+		}
+
+		section{
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			text-align: center;
+			align-items: center;
+			background-color: #b0c4de;
+			padding: 50px;
+		}  
+
+		.hobbies{
+			background-color: #98eeffcf;
+			padding: 20px;
+			border-radius: 10px;
+		  }
+
+		  .activities{
+			display: flex;
+			justify-content: center;
+			gap: 20px;
+		  }
+
+		  .activity1{
+			padding: 20px;
+			background-color: #006eff95;
+			border-radius: 10%;
+			border: 1px solid blue;
+			text-align: center;
+			margin-bottom: 20px;
+		  }
+
+		  .activity2{
+			padding: 20px;
+			background-color: #006eff95;
+			border-radius: 10%;
+			border: 1px solid blue;
+			text-align: center;
+			margin-bottom: 20px;
+		  }
+
+		  .activity3{
+			padding: 20px;
+			background-color: #006eff95;
+			border-radius: 10%;
+			border: 1px solid blue;
+			text-align: center;
+			margin-bottom: 20px;
+		  }
+
+		  .activity4{
+			padding: 20px;
+			background-color: #006eff95;
+			border-radius: 10%;
+			border: 1px solid blue;
+			text-align: center;
+			margin-bottom: 20px;
+		  }
+
+		  footer{
+			background-color: #004792;
+			color: #fff;
+			text-align: center;
+			padding: 20px;
+		  }
+
